@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 48px;
+}
+button {
+  all: unset;
+}
+
+/* =========SECTION======== */
+header {
+  height: 20vh;
+  padding: 0 40px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+header img {
+  width: 70px;
+  height: 80px;
+}
+/* =========MAIN======== */
+
+.counter {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.counter p {
+  color: white;
+  background-color: #5c48d3;
+  padding: 10px;
+  min-height: 130px;
+  min-width: 130px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 96px;
+}
+.decrement,
+.increment {
+  color: #1e1e1e;
+  font-size: 80px;
+}
+main > div:last-child button {
+  background-color: #5c48d3;
+  font-size: 32px;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+}
+main > div:last-child {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* =========FOOTER======== */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
