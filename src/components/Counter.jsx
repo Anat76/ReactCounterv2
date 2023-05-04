@@ -6,8 +6,9 @@ const Counter = ({
   resetCounter,
 }) => {
   return (
-    <>
+    <div className="counter">
       <button
+        className="decrement"
         onClick={() => {
           decrementCounter(index);
         }}
@@ -16,6 +17,7 @@ const Counter = ({
       </button>
       <span>{counters}</span>
       <button
+        className="increment"
         onClick={() => {
           incrementCounter(index);
         }}
@@ -23,13 +25,14 @@ const Counter = ({
         +
       </button>
       <button
+        className="button-action"
         onClick={() => {
           resetCounter(index);
         }}
       >
         Reset
       </button>
-    </>
+    </div>
   );
 };
 

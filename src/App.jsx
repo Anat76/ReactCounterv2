@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import "./App.css";
+import "./App.css";
 
 import Counter from "./components/Counter";
 
@@ -35,7 +35,7 @@ const App = () => {
         <h1>React Counter V2</h1>
       </header>
       <main>
-        <div className="Button-action">
+        <div className="button-action">
           {counter.length < 3 && (
             <button
               onClick={() => {
